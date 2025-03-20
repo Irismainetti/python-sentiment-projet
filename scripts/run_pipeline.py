@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath('..'))  # Adds the parent directory to sys.path
 
 import logging
 from src import config
-from src.load_data import load_data
+from src.load_data import load_data #chiamiamo altri file per evitare mille righe di codice e capire più in fretta dove sono i problemi
 from src.preprocess import preprocess_data
 from src.make_model import train_model
 # from src.evaluation import evaluate_model
